@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: password-awareness-cep
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: "gunicorn server:app --bind 0.0.0.0:$PORT --workers 1 --threads 8 --timeout 30 --access-logfile /dev/null"
+    healthCheckPath: /healthz
+    disk:
+      name: survey-responses
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: SURVEY_DATABASE
+        value: /var/data/responses.sqlite3

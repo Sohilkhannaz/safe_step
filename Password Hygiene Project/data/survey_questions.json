@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q01",
+    "question": "What is your age group?",
+    "options": ["Below 18", "18–20", "21–25", "Above 25"]
+  },
+  {
+    "id": "q02",
+    "question": "How often do you use the internet?",
+    "options": ["Every day", "Several times a week"]
+  },
+  {
+    "id": "q03",
+    "question": "Have you heard about password hygiene?",
+    "options": ["Yes", "Maybe", "Not sure", "No"]
+  },
+  {
+    "id": "q04",
+    "question": "Do you use different passwords for different accounts?",
+    "options": ["Always", "Sometimes", "Rarely", "Never"]
+  },
+  {
+    "id": "q05",
+    "question": "What makes a password strong?",
+    "options": [
+      "Using a long, unique combination of letters, numbers and symbols",
+      "Using the same password everywhere",
+      "Using your name and birth date"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "How often do you change your passwords?",
+    "options": ["Only when I forget them", "Regularly or when needed", "Never", "Once a year"]
+  },
+  {
+    "id": "q07",
+    "question": "Do you know what two-factor authentication (2FA) is?",
+    "options": [
+      "I know about it and use it",
+      "I know about it but do not use it",
+      "I have heard of it but do not understand it"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "Where do you store your passwords?",
+    "options": ["Browser's saved passwords", "Password manager", "Other", "Notebook or paper"]
+  },
+  {
+    "id": "q09",
+    "question": "Have you ever shared your password with another person?",
+    "options": ["No", "Prefer not to say", "Yes"]
+  },
+  {
+    "id": "q10",
+    "question": "Do you check whether a website is genuine before entering your login details?",
+    "options": ["Never", "Sometimes", "Always", "Rarely"]
+  },
+  {
+    "id": "q11",
+    "question": "What would you do if you received a suspicious link asking you to log in?",
+    "options": ["Ignore or report it and verify the sender", "Forward it to friends"]
+  },
+  {
+    "id": "q12",
+    "question": "What is phishing?",
+    "options": [
+      "A fraudulent attempt to steal sensitive information",
+      "A type of password manager",
+      "A method of protecting data",
+      "A way to improve internet speed"
+    ]
+  },
+  {
+    "id": "q13",
+    "question": "Do you know what personal data includes?",
+    "options": [
+      "Information such as my phone number, address, financial details and identity information",
+      "I do not know"
+    ]
+  },
+  {
+    "id": "q14",
+    "question": "Do you review app permissions before installing or using an app?",
+    "options": ["Never", "Always", "Sometimes", "Rarely"]
+  },
+  {
+    "id": "q15",
+    "question": "Do you avoid sharing sensitive personal information on public Wi-Fi?",
+    "options": ["Never", "Always", "Sometimes", "Rarely"]
+  },
+  {
+    "id": "q16",
+    "question": "Do you check privacy settings on your social media accounts?",
+    "options": ["Sometimes", "Regularly", "Rarely", "Never"]
+  },
+  {
+    "id": "q17",
+    "question": "What would you do if you suspected that your account had been hacked?",
+    "options": [
+      "Change the password and secure the account",
+      "Ignore it",
+      "Delete the notification without checking"
+    ]
+  },
+  {
+    "id": "q18",
+    "question": "Do you know that legitimate support staff should not ask you to reveal your password or OTP?",
+    "options": ["Yes", "No", "Maybe"]
+  },
+  {
+    "id": "q19",
+    "question": "How confident are you in protecting your personal data online?",
+    "options": ["Very confident", "Somewhat confident", "Not very confident", "Not confident at all"]
+  },
+  {
+    "id": "q20",
+    "question": "Would you like to learn more about password safety and personal data protection?",
+    "options": ["Yes", "Maybe", "No"]
+  }
+]

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b3a">
+  <meta name="description" content="Test your understanding of password safety, phishing, and personal data protection.">
+  <title>Cybersecurity awareness quiz | Password Hygiene &amp; Personal Data Protection Campaign</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#home" aria-label="Safe Step home">
+        <span class="brand-mark" aria-hidden="true">盾</span>
+        <span>Safe Step<span class="brand-subtitle">Digital safety for everyone</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="password-guide.html">Password guide</a>
+        <a href="data-protection.html">Protect your data</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="analysis.html">Survey analysis</a>
+        <a href="resources.html">Resources</a>
+        <a class="nav-cta" href="survey.html">Participate in the survey</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+<section class="section section-tint" id="quiz">
+      <div class="container quiz-layout">
+        <div>
+          <p class="eyebrow">Check what you know</p>
+          <h2>Cyber safety mini quiz</h2>
+          <p>Choose one answer for each question, then check your score. Your answers stay in this page and are not saved or collected.</p>
+          <div class="quiz-badge"><span aria-hidden="true">✓</span> 6 beginner-friendly questions</div>
+        </div>
+        <div class="quiz-card">
+          <form id="quiz-form">
+            <fieldset class="quiz-question" data-answer="b">
+              <legend><span class="question-count">01</span> Which password habit is safer?</legend>
+              <label><input type="radio" name="q1" value="a"> Reuse one easy password everywhere</label>
+              <label><input type="radio" name="q1" value="b"> Use a long, unique password for each account</label>
+              <label><input type="radio" name="q1" value="c"> Use your birthday with an exclamation mark</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <fieldset class="quiz-question" data-answer="c">
+              <legend><span class="question-count">02</span> An unexpected email asks you to sign in using its link. What should you do?</legend>
+              <label><input type="radio" name="q2" value="a"> Click quickly before the offer expires</label>
+              <label><input type="radio" name="q2" value="b"> Reply with your password to confirm your account</label>
+              <label><input type="radio" name="q2" value="c"> Open the official app or type the known website address yourself</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <fieldset class="quiz-question" data-answer="a">
+              <legend><span class="question-count">03</span> What should you do with an OTP sent to your phone?</legend>
+              <label><input type="radio" name="q3" value="a"> Keep it private and enter it only in the service you started using</label>
+              <label><input type="radio" name="q3" value="b"> Share it with anyone claiming to be support</label>
+              <label><input type="radio" name="q3" value="c"> Post it in a group to ask what it means</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <fieldset class="quiz-question" data-answer="b">
+              <legend><span class="question-count">04</span> Which is a sensible way to handle an app permission?</legend>
+              <label><input type="radio" name="q4" value="a"> Allow every permission without checking</label>
+              <label><input type="radio" name="q4" value="b"> Allow only what the app needs for a feature you use</label>
+              <label><input type="radio" name="q4" value="c"> Give every app access to your contacts</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <fieldset class="quiz-question" data-answer="c">
+              <legend><span class="question-count">05</span> What does multi-factor authentication add?</legend>
+              <label><input type="radio" name="q5" value="a"> A public profile photo</label>
+              <label><input type="radio" name="q5" value="b"> A shorter password</label>
+              <label><input type="radio" name="q5" value="c"> Another check to help confirm it is really you</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <fieldset class="quiz-question" data-answer="a">
+              <legend><span class="question-count">06</span> Before sharing an identity document online, you should…</legend>
+              <label><input type="radio" name="q6" value="a"> Verify the service and confirm the document is needed</label>
+              <label><input type="radio" name="q6" value="b"> Send it to any account that requests it</label>
+              <label><input type="radio" name="q6" value="c"> Upload it to claim an unexpected prize</label>
+              <p class="answer-feedback" aria-live="polite"></p>
+            </fieldset>
+            <div class="quiz-actions">
+              <button class="button button-primary" type="submit">Check my answers</button>
+              <button class="button button-outline" id="restart-quiz" type="button">Restart quiz</button>
+            </div>
+            <p class="quiz-result" id="quiz-result" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><a class="brand brand-footer" href="index.html#home"><span class="brand-mark" aria-hidden="true">盾</span><span>Safe Step<span class="brand-subtitle">Digital safety for everyone</span></span></a><p>Password Hygiene and Personal Data Protection Campaign.</p></div>
+      <div class="footer-links"><a href="index.html#home">Home</a><a href="index.html#about">About</a><a href="index.html#risks">Risks</a><a href="analysis.html">Survey analysis</a></div>
+      <p class="copyright">Built as a Semester 5 CEP project.</p>
+    </div>
+  </footer>
+</body>
+</html>

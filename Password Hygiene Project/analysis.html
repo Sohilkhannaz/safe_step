@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123b3a">
+  <meta name="description" content="Automatically generated analysis of responses to the Password Hygiene and Personal Data Protection website survey.">
+  <title>Survey Analysis | Password Hygiene &amp; Personal Data Protection Campaign</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/analysis.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#home" aria-label="Safe Step home">
+        <span class="brand-mark" aria-hidden="true">盾</span>
+        <span>Safe Step<span class="brand-subtitle">Digital safety for everyone</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span><span aria-hidden="true">☰</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="password-guide.html">Password guide</a>
+        <a href="data-protection.html">Protect your data</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="analysis.html">Survey analysis</a>
+        <a href="resources.html">Resources</a>
+        <a class="nav-cta" href="survey.html">Participate in the survey</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section section-tint" id="analysis">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Survey response analysis</p>
+          <h1 class="analysis-page-title">Analysis of website survey responses</h1>
+          <p>Charts and response summaries update from answers submitted through the website survey. Results include only responses saved by the project server.</p>
+        </div>
+        <div class="analysis-content" aria-live="polite">
+          <div class="analysis-summary" id="live-analysis-summary"></div>
+          <button class="button button-outline analysis-refresh" id="refresh-analysis" type="button">Refresh analysis</button>
+          <p class="analysis-method" id="live-analysis-status" role="status">Loading response analysis…</p>
+          <div id="live-analysis-charts"></div>
+          <section class="analysis-live-findings" id="live-analysis-findings" hidden>
+            <h2>Response summary</h2>
+            <p class="analysis-intro">These points describe the most selected answer for each question. They are descriptive summaries, not evidence that the campaign changed awareness.</p>
+            <ul id="live-analysis-findings-list"></ul>
+          </section>
+        </div>
+        <div class="analysis-page-actions">
+          <a class="button button-primary" href="survey.html">Take the survey</a>
+          <a class="button button-outline" href="index.html#home">Back to home</a>
+        </div>
+        <p class="analysis-method">Percentages use each question's valid-response count. Results shown here are based on website survey responses only.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><a class="brand brand-footer" href="index.html#home"><span class="brand-mark" aria-hidden="true">盾</span><span>Safe Step<span class="brand-subtitle">Digital safety for everyone</span></span></a><p>Password Hygiene and Personal Data Protection Campaign.</p></div>
+      <div class="footer-links"><a href="index.html#home">Home</a><a href="survey.html">Survey</a><a href="resources.html">Resources</a></div>
+      <p class="copyright">Built as a Semester 5 CEP project.</p>
+    </div>
+  </footer>
+</body>
+</html>
