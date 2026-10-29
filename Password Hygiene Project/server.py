@@ -280,7 +280,7 @@ def website_files(filename):
 
 def main():
     initialise_database()
-    host = os.environ.get("SURVEY_HOST", "127.0.0.1")
+    host = os.environ.get("SURVEY_HOST", "0.0.0.0")
     port = int(os.environ.get("PORT", os.environ.get("SURVEY_PORT", "8000")))
     print(f"Project website: http://{host}:{port}")
     print(f"Survey responses are stored in {DATABASE}.")
